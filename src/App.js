@@ -3,6 +3,7 @@ import Link from "./Link.js";
 import Button from "./Button.js";
 import Card from "./Card.js";
 import CardContainer from "./CardContainer.js";
+import Image from "./Image.js";
 import "./style.css";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
       <p>Start editing to see some magic happen :)</p>
       </Card>
       <Card>
+      <Image alt="you"/>
       <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
       </Card>
