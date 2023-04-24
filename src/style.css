@@ -1,10 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 :root{
   --primary: #472F00;
   --secondary: #FFC107;
   --light-gray: #DADCE0;
   --light-brown: #906613;
+  --white: #FFFFFF;
 }
 
 .ui-link {
@@ -45,7 +47,7 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 .card{
   background-color:var(--light-brown);
-  opacity: 0.7;
+  opacity: 0.6;
   border-radius: 10px;
   max-width:100%;
   height:auto;
@@ -64,6 +66,13 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   background-image: linear-gradient(#472F00,#FFFFFF); 
   padding: 10%;
+}
+.ui-text{
+  color: var(--white);
+}
+.ui-cardHeader{
+  color: var(--white);
+  font-family: 'Open Sans', sans-serif;
 }
 [class^="ui-"] {
   margin: 10px;
