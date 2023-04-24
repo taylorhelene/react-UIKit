@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 
 :root{
   --primary: #472F00;
@@ -45,6 +46,26 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   opacity: 0.4;
   cursor: disabled;
 }
+.ui-button-right {
+  background-color: var(--primary);
+  color: white;
+  border: 0;
+  padding: 10px 15px;
+  min-width: auto;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 200ms ease-out;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  float: right;
+  }
+  .ui-button-right:hover {
+    opacity: 0.8;
+  }
+  .ui-button-right:disabled {
+    opacity: 0.4;
+    cursor: disabled;
+  }
 .card{
   background-color:var(--light-brown);
   opacity: 0.6;
@@ -56,6 +77,14 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 .containerRow{
   display: flex;
   flex-direction: row;
+  margin: 10%;
+}
+.cardRow{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
 }
 .ui-image{
   display:inline-flex ;
@@ -65,10 +94,15 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   height:auto;
   border-radius: 50%;
   background-image: linear-gradient(#472F00,#FFFFFF); 
-  padding: 10%;
+  padding: 3%;
 }
 .ui-text{
   color: var(--white);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .ui-cardHeader{
   color: var(--white);

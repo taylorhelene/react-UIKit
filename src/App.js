@@ -12,11 +12,11 @@ export default function App() {
   return (
     <div>
       <Link href="https://react-tutorial.app">This</Link>
-      <Button disabled={false} type="button">This</Button>
-      <ContainerRow>
+      <Button className="ui-button-right" disabled={false} type="button">Sign Up</Button>
+      <ContainerRow className="containerRow">
       
       <Card>
-      <ContainerRow>
+      <ContainerRow className="cardRow">
       <Image src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/listicon.png" alt="you"/>
       <CardHeadertext>Step 1:</CardHeadertext>
       </ContainerRow>
@@ -24,19 +24,19 @@ export default function App() {
       </Card>
 
       <Card>
-      <ContainerRow>
+      <ContainerRow className="cardRow">
       <Image src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/listicon.png" alt="you"/>
-      <CardHeadertext>Step 1:</CardHeadertext>
+      <CardHeadertext>Step 2:</CardHeadertext>
       </ContainerRow>
-      <Text>Ensure you register your correct details to ensure trust and reliance to your clients</Text>
+      <Text>Ensure you fill in your product information including the photos and the price.</Text>
       </Card>
       
       <Card>
-      <ContainerRow>
+      <ContainerRow className="cardRow">
       <Image src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/listicon.png" alt="you"/>
-      <CardHeadertext>Step 1:</CardHeadertext>
+      <CardHeadertext>Step 3:</CardHeadertext>
       </ContainerRow>
-      <Text>Ensure you register your correct details to ensure trust and reliance to your clients</Text>
+      <Text>Follow up on all clients who notify you of their interest in the product. Keep the communication clear and professional.</Text>
       </Card>
       </ContainerRow>
     </div>
