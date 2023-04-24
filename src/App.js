@@ -17,7 +17,7 @@ export default function App() {
       <p>Start editing to see some magic happen :)</p>
       </Card>
       <Card>
-      <Image alt="you"/>
+      <Image src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/list-text.png" alt="you"/>
       <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
       </Card>
