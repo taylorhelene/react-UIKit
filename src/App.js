@@ -6,11 +6,16 @@ import ContainerRow from "./ContainerRow.js";
 import Image from "./Image.js";
 import Text from "./Text.js";
 import CardHeadertext from "./CardHeadertext.js";
+import ImageCupContainer from "./ImageCupContainer";
 import "./style.css";
 
 export default function App() {
   return (
-    <div>
+    <div >
+      <ContainerRow className="imageRow">
+      <ImageCupContainer className="ui-containerimage"/>
+      <ImageCupContainer className="ui-extensionimage"/>
+      </ContainerRow>
       <Link href="https://react-tutorial.app">This</Link>
       <Button className="ui-button-right" disabled={false} type="button">Sign Up</Button>
       <ContainerRow className="containerRow">

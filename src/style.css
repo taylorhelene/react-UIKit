@@ -15,11 +15,14 @@
   color: var(--primary);
 }
 
-.ui-container {
-  width: 80%;
-  margin: 0 auto;
+.ui-containerimage {
+  background-image: url("https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/cupimage.png");
+  height: auto;
+  width: auto;
 }
-
+.ui-extensionimage {
+  background-image: url("https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/cupimageextension.png");
+}
 .ui-textfield {
 padding: 12px 10px;
 border-radius: 3px;
@@ -73,6 +76,11 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   max-width:100%;
   height:auto;
   margin:10px;
+}
+.imageRow{
+  display: flex;
+  flex-direction: row;
+  
 }
 .containerRow{
   display: flex;
