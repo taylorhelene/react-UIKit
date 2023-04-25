@@ -13,8 +13,8 @@ export default function App() {
   return (
     <div >
       <ContainerRow className="imageRow">
-      <ImageCupContainer className="ui-containerimage"/>
-      <ImageCupContainer className="ui-extensionimage"/>
+      <ImageCupContainer src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/cupimage.png" className="containerimage"/>
+      <ImageCupContainer  className="extensionimage"/>
       </ContainerRow>
       <Link href="https://react-tutorial.app">This</Link>
       <Button className="ui-button-right" disabled={false} type="button">Sign Up</Button>
