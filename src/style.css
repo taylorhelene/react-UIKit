@@ -22,7 +22,7 @@
 .extensionimage {
   height: auto;
   width: auto;
-  background-image: url("https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/cupimageextension.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/cupimage.png");
   background-repeat: repeat-x round ;
   flex-grow:1;
   
