@@ -18,6 +18,7 @@
 .containerimage {
   height: auto;
   width: auto;
+  background-image: url("https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/cupimagee.png");
 }
 .extensionimage {
   height: auto;
@@ -65,7 +66,9 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: opacity 200ms ease-out;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  float: right;
+  
+  position: absolute ;
+  
   }
   .ui-button-right:hover {
     opacity: 0.8;
