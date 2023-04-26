@@ -17,21 +17,28 @@ export default function App() {
         <Button className="ui-button-right" disabled={false} type="button">Sign Up</Button> 
       </ImageCupContainer>
       <ImageCupContainer  className="extensionimage">
+      <ContainerRow className="logo-row">
+        <Image className="" src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/page logo.png" alt="logo"/>
+        <Text className="logo-header">Sanaa__Vijanaa</Text>
+      </ContainerRow>
       <ContainerRow className="header-row">
         <Text className="header-text">Features</Text>
         <Text className="header-text">Accessories</Text>
         <Text className="header-text">Outdoor</Text>
         <Text className="header-text">Indoor</Text>
       </ContainerRow>
+      <Text className="title-text">Need to showcase those great crafts <br/>you’ve made? </Text>
+      <Text className="subtitle">We feature handi-crafts for fair trade <br/><br/>and provide a wide market of unique products. </Text>
+      <Button className="button" disabled={false} type="button">Get Started</Button>
       </ImageCupContainer>
       </ContainerRow>
       <Link href="https://react-tutorial.app">This</Link>
-      <Button className="ui-button-right" disabled={false} type="button">Sign Up</Button>
+     
       <ContainerRow className="containerRow">
       
       <Card>
       <ContainerRow className="cardRow">
-      <Image src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/listicon.png" alt="you"/>
+      <Image className="ui-image" src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/listicon.png" alt="you"/>
       <CardHeadertext>Step 1:</CardHeadertext>
       </ContainerRow>
       <Text className="ui-text">Ensure you register your correct details to ensure trust and reliance to your clients</Text>
@@ -39,7 +46,7 @@ export default function App() {
 
       <Card>
       <ContainerRow className="cardRow">
-      <Image src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/listicon.png" alt="you"/>
+      <Image className="ui-image" src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/listicon.png" alt="you"/>
       <CardHeadertext>Step 2:</CardHeadertext>
       </ContainerRow>
       <Text className="ui-text">Ensure you fill in your product information including the photos and the price.</Text>
@@ -47,7 +54,7 @@ export default function App() {
       
       <Card>
       <ContainerRow className="cardRow">
-      <Image src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/listicon.png" alt="you"/>
+      <Image className="ui-image" src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/listicon.png" alt="you"/>
       <CardHeadertext>Step 3:</CardHeadertext>
       </ContainerRow>
       <Text className="ui-text">Follow up on all clients who notify you of their interest in the product. Keep the communication clear and professional.</Text>

@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
 
 :root{
   --primary: #472F00;
@@ -14,7 +16,9 @@
   text-decoration: none;
   color: var(--primary);
 }
-
+.hero{
+  height: 95vh;
+}
 .containerimage {
   height: auto;
   width: auto;
@@ -28,7 +32,38 @@
   flex-grow:1;
   
 }
+.logo-row{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  
+}
+.logo-image{
+  height: auto;
+  width: auto;
+}
+.logo-header{
+  font-family: 'Sriracha', cursive;
+  color:var(--primary);
+  font-size:larger;
+  margin: 5%;
+}
+.title-text{
+  font-family: 'Dangrek', cursive;
+  font-size: xx-large;
+  color: #000;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+.subtitle{
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
+  font-weight: 600;
+  color: #000;
+  margin-top: 5%;
+  margin-left: 10%;
 
+}
 .ui-textfield {
 padding: 12px 10px;
 border-radius: 3px;
@@ -36,22 +71,22 @@ border: 1px solid var(--light-gray);
 font-size: 16px;
 }
 
-.ui-button {
+.button {
 background-color: var(--primary);
 color: white;
 border: 0;
-padding: 15px 20px;
-min-width: 150px;
+padding: 10px 15px;
+min-width:auto;
 font-size: 16px;
 border-radius: 3px;
 cursor: pointer;
 transition: opacity 200ms ease-out;
 box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
-.ui-button:hover {
+.button:hover {
   opacity: 0.8;
 }
-.ui-button:disabled {
+.button:disabled {
   opacity: 0.4;
   cursor: disabled;
 }
@@ -103,7 +138,7 @@ box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 .imageRow{
   display: flex;
   flex-direction: row-reverse;
-  
+  height: 95vh;
 }
 .containerRow{
   display: flex;
