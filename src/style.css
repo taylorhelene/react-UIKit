@@ -78,10 +78,13 @@ border: 0;
 padding: 10px 15px;
 min-width:auto;
 font-size: 16px;
-border-radius: 3px;
+border-radius: 5px;
 cursor: pointer;
 transition: opacity 200ms ease-out;
 box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+position: absolute;
+margin-left: 7%;
+margin-top: 2%;
 }
 .button:hover {
   opacity: 0.8;
