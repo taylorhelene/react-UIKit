@@ -18,7 +18,7 @@ export default function App() {
       </ImageCupContainer>
       <ImageCupContainer  className="extensionimage">
       <ContainerRow className="logo-row">
-        <Image className="" src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/logo.png" alt="logo"/>
+        <Image className="logo-image" src="https://cdn.jsdelivr.net/gh/taylorhelene/react-UIKit@main/src/Images/logo.png" alt="logo"/>
         <Text className="logo-header">Sanaa__Vijanaa</Text>
       </ContainerRow>
       <ContainerRow className="header-row">
@@ -32,8 +32,6 @@ export default function App() {
       <Button className="button" disabled={false} type="button">Get Started</Button>
       </ImageCupContainer>
       </ContainerRow>
-      
-      <Link href="https://react-tutorial.app">This</Link>
      
       <ContainerRow className="containerRow">
       
